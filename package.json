@@ -1,4 +1,6 @@
 {
+  "name": "hour-to-decimal",
+  "version": "1.0",
   "dependencies": {
     "bulma": "^0.7.1"
   }
