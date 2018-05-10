@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Convert hours to decimal</title>
+
+  <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="hero is-light is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Convert hour to decimal
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <div id="converter-container" class="container">
+    <form id="converter-form">
+
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <label for="hour-input" class="label">Hour</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div id="hour" class="control">
+              <input id="hour-input" name="hour" class="input" type="text">
+              <p class="help">Use : as separator.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <label for="decimal-input" class="label">Decimal</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div id="decimal" class="control">
+              <input id="decimal-input" name="decimal" class="input" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label"></div>
+        <div class="field-body">
+          <div class="field">
+            <p class="control">
+              <button id="convert-button" class="button is-primary">Convert</button>
+              <button id="clean-button" class="button is-light" type="reset">Clean</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>
+
+<script src="source/code.js"></script>
